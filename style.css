@@ -1,0 +1,21 @@
+#failed-assignment > img {
+    transform: scale(2.2, 2.2) skew(-20deg, 10deg);
+    border: 10px ridge red;
+    border-radius: 30px;
+}
+
+#failed-assignment {
+    position: relative;
+    text-align: center;
+    top: 260px;
+}
+
+.FAIL {
+    position: absolute;
+    text-align: center;
+    transform: rotate(15deg) translate(40px, -40px) scaleX(0.7) scaleY(0.7) skewX(-30deg) skewY(2deg);
+    top: 100px;
+    bottom: 400px;
+    left: 400px;
+    right: 320px;
+}

@@ -71,7 +71,7 @@ a > h2 {
 }
 
 #threeDfilebox1:hover {
-    transform: rotateZ(180deg);
+    transform: rotateX(180deg);
     transform-style: preserve-3d;
     transition-timing-function: ease;
 }

@@ -36,15 +36,16 @@ a > h2 {
 }
 
 #boxes {
+    display: flex;
     position: relative;
-    top: -100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .threeDfilebox {
     position: relative;
-    justify-content: center;
     border: teal 4px groove;
-    margin: 20px 700px 60px 700px;
     transition-property: transform;
     transition-duration: .7s;
     width: 300px;
@@ -94,6 +95,6 @@ a > h2 {
     padding-top: 55px;
 }
 
-#threeDfilebox {
+body {
     background-color: darkcyan;
 }
